@@ -14,3 +14,4 @@ transition: 0.3s;text-align: center;}
 .card h3 {margin-bottom: 10px;}
 .card p {font-size: 14px;color: gray;}
 .card:hover {background: #0077cc;color: white;transform: translateY(-8px);}
+.container {display: flex;justify-content: center;gap: 30px;flex-wrap: wrap;}
