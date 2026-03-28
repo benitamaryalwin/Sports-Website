@@ -2,4 +2,7 @@ body {font-family: Arial, sans-serif;margin: 0;
 background-color: #f4f4f4;}
 header {background-color: #6ebdcf;color: white;text-align: center;
 padding: 15px;}
-
+.hero {background: linear-gradient(to right, #0077cc, #00aaff);color: white;
+text-align: center;padding: 80px 20px;}
+.card a {text-decoration: none;color: black;}
+.card a:hover {color: #0077cc;}
