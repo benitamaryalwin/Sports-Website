@@ -52,3 +52,5 @@ align-items: flex-start;}
 .side img{width:100%;height:250px;object-fit:cover;}
 .info{position:absolute;bottom:0;width:100%;padding:15px;color:#fff;background:linear-gradient(to top,rgba(0,0,0,0.7),transparent);}
 .vs{font-size:40px;font-weight:bold;color:#d60000;}
+.sinner-img{object-fit:cover;object-position:50% 20%;}
+.alcaraz-img{object-fit:cover;object-position:50% 25%;}
