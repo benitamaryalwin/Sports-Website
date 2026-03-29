@@ -56,4 +56,4 @@ background:linear-gradient(to top,rgba(0,0,0,0.7),transparent);}
 .vs{font-size:40px;font-weight:bold;color:#d60000;}
 .sinner-img{object-fit:cover;object-position:50% 20%;}
 .alcaraz-img{object-fit:cover;object-position:50% 25%;}
-.gukesh-img{width:100%;max-height:300px;object-fit:cover;object-position:top;}
+.gukesh-img{width:100%;height:auto;object-fit:unset;}
