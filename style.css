@@ -57,4 +57,5 @@ background:linear-gradient(to top,rgba(0,0,0,0.7),transparent);}
 .sinner-img{object-fit:cover;object-position:50% 20%;}
 .alcaraz-img{object-fit:cover;object-position:50% 25%;}
 .gukesh-img{width:100%;height:auto;object-fit:unset;}
-.champion-box img{width:100%;height:auto;display:block;border-radius:8px;}
+.champion-box img{width:100%;height:auto;max-height:260px;
+object-fit:contain;display:block;border-radius:8px;margin:auto;}
