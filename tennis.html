@@ -12,6 +12,7 @@
 <a href="cricket.html">Cricket</a>
 <a href="tennis.html">Tennis</a>
 <a href="chess.html">Chess</a>
+<button onclick="toggleMode()">🌙</button>
 </nav>
 </header>
 <section class="hero small-hero">
@@ -113,5 +114,10 @@
 <footer>
 <p>© 2026 Sports Today</p>
 </footer>
+<script>
+function toggleMode(){
+document.body.classList.toggle("dark");
+}
+</script>
 </body>
 </html>

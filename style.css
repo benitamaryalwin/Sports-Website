@@ -59,3 +59,8 @@ background:linear-gradient(to top,rgba(0,0,0,0.7),transparent);}
 .gukesh-img{width:100%;height:auto;object-fit:unset;}
 .champion-box img{width:100%;height:auto;max-height:260px;
 object-fit:contain;display:block;border-radius:8px;margin:auto;}
+.dark{background:#111;color:white;}
+.dark .section{background:#1e1e1e;}
+.dark .tile,.dark .player,.dark .news-card{background:#2a2a2a;color:white;}
+.dark nav a{color:#ddd;}
+.dark footer{background:#000;}
