@@ -64,3 +64,19 @@ object-fit:contain;display:block;border-radius:8px;margin:auto;}
 .dark .tile,.dark .player,.dark .news-card{background:#2a2a2a;color:white;}
 .dark nav a{color:#ddd;}
 .dark footer{background:#000;}
+.action-btn{
+background:#d60000;
+color:white;
+border:none;
+padding:10px 16px;
+font-size:14px;
+font-weight:bold;
+border-radius:4px;
+cursor:pointer;
+margin:15px 0 15px 5px;
+transition:0.3s;
+}
+.action-btn:hover{
+background:#a80000;
+transform:scale(1.05);
+}

@@ -55,12 +55,18 @@
 <p>The Indian chess team is rising to heights.</p>
 </div>
 </section>
+<button class="action-btn" onclick="showUpdate()">Show Latest Update</button>
+<p id="chessText"></p>
 <footer>
 <p>© 2026 Sports Today</p>
 </footer>
 <script>
 function toggleMode(){
 document.body.classList.toggle("dark");
+}
+function showUpdate(){
+document.getElementById("chessText").innerText =
+"Javokhir Sindarov has won the 2026 Candidates Tournament and will challenge D. Gukesh for the World Championship.";
 }
 </script>
 </body>

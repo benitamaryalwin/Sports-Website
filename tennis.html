@@ -84,6 +84,8 @@
 <p>New generation players are reshaping the global tennis scene.</p>
 </div>
 </section>
+<button class="action-btn" onclick="showUpdate()">Show Latest Update</button>
+<p id="tennisText"></p>
 <section class="section"><h2>SINNER vs ALCARAZ</h2>
 <div class="rivalry">
 <div class="side">
@@ -117,6 +119,10 @@
 <script>
 function toggleMode(){
 document.body.classList.toggle("dark");
+}
+function showUpdate(){
+document.getElementById("tennisText").innerText =
+"Jannik Sinner is on a historic run, winning four consecutive ATP Masters 1000 titles across 2025 and 2026.";
 }
 </script>
 </body>
