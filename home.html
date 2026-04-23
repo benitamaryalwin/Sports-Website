@@ -18,6 +18,7 @@
 <section class="hero">
 <h2>WELCOME TO SPORTS TODAY!</h2>
 <p>Latest updates across major sports</p>
+<p id="clock" class="clock"></p>
 </section>
 <section class="section">
 <h2>Explore Sports</h2>
@@ -47,6 +48,11 @@
 function toggleMode(){
 document.body.classList.toggle("dark");
 }
+setInterval(function(){
+let d = new Date();
+let time = d.toLocaleTimeString('en-US', { hour12: true });
+document.getElementById("clock").innerText = "Time Now: " + time;
+},1000);
 </script>
 </body>
 </html>
